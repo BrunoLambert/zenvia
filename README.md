@@ -1,4 +1,4 @@
-# zenvia_test
+# Zenvia Test
 
 ## Build Setup
 
@@ -67,3 +67,19 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+### `libs`
+
+This directory contains files that helps on the project development such as data formatter or project constants.
+
+## Resolving the problems
+
+The first problem (identifying by status) was solved using colors to indentify the characters statuses on the character list, trying to let it better self explained.
+
+For the second problem, tt was added a expanded image when clicking on the character's image to better visualization.
+
+Third place, a pagination was used to cosume less data from the API (for this case, it doesn't make difference, but it is better when it has a lot of amount of data).
+
+Other problem of text identify was solved using diferents size of fonts that was used to better identify in a hierarchy way (using HTML tags).
+
+The last and, maybe, the most important, all the layouts was design to work responsively (mobiles, common resolution of 1366px and highers).
